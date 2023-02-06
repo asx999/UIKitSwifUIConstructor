@@ -27,6 +27,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     //__________________________________Закоментировать выше
 
 
+    //для круглой кнопки изменения/показывает что работает и с NavigationController и с (ViewController необходимо подменить методы закрытия и метод перехода подписано
+
+    //__________________________________Закоментировать ниже
+
+//    var window: UIWindow?
+//    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+//        guard let scene = (scene as? UIWindowScene) else { return }
+//        window = UIWindow(windowScene: scene)
+//        window?.rootViewController = UINavigationController(rootViewController: OneRoundButtonViewController())
+//        window?.makeKeyAndVisible()
+//    }
+    //__________________________________Закоментировать выше
+
+
+
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

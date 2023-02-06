@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TwoCustomView: UIView {
+final class TwoCustomView: UIView {
     let redView: UIView = {
         let redView = UIView()
         redView.backgroundColor = .red

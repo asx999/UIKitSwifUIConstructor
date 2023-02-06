@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OneCustomView: UIView {
+final class OneCustomView: UIView {
 let twoCustomView = TwoCustomView()
 
 

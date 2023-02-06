@@ -18,6 +18,9 @@
 		1E29B5DB298FFE8D004E65A8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29B5DA298FFE8D004E65A8 /* InfoViewController.swift */; };
 		1E29B5DD298FFECE004E65A8 /* CradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29B5DC298FFECE004E65A8 /* CradientButton.swift */; };
 		1E29B5DF29900514004E65A8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29B5DE29900514004E65A8 /* MainViewController.swift */; };
+		1E29B5E129900FAE004E65A8 /* OneRoundButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29B5E029900FAE004E65A8 /* OneRoundButtonViewController.swift */; };
+		1E29B5E329900FC4004E65A8 /* TwoRoundButtonViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29B5E229900FC4004E65A8 /* TwoRoundButtonViewControllerViewController.swift */; };
+		1E29B5E7299014B6004E65A8 /* CilcularTranzition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29B5E6299014B6004E65A8 /* CilcularTranzition.swift */; };
 		1EE1E9FE2981620400DBEEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1E9FD2981620400DBEEFC /* AppDelegate.swift */; };
 		1EE1EA002981620400DBEEFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1E9FF2981620400DBEEFC /* SceneDelegate.swift */; };
 		1EE1EA022981620400DBEEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1EA012981620400DBEEFC /* ViewController.swift */; };
@@ -41,6 +44,9 @@
 		1E29B5DA298FFE8D004E65A8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		1E29B5DC298FFECE004E65A8 /* CradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CradientButton.swift; sourceTree = "<group>"; };
 		1E29B5DE29900514004E65A8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1E29B5E029900FAE004E65A8 /* OneRoundButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRoundButtonViewController.swift; sourceTree = "<group>"; };
+		1E29B5E229900FC4004E65A8 /* TwoRoundButtonViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoRoundButtonViewControllerViewController.swift; sourceTree = "<group>"; };
+		1E29B5E6299014B6004E65A8 /* CilcularTranzition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CilcularTranzition.swift; sourceTree = "<group>"; };
 		1EE1E9FA2981620400DBEEFC /* Storyboard + Canvas + SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard + Canvas + SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE1E9FD2981620400DBEEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE1E9FF2981620400DBEEFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +94,24 @@
 				1E29B5D6298FF65F004E65A8 /* PostTitle.swift */,
 			);
 			path = Dock;
+			sourceTree = "<group>";
+		};
+		1E29B5E429901454004E65A8 /* Tranzitioning */ = {
+			isa = PBXGroup;
+			children = (
+				1E29B5E529901473004E65A8 /* ViewControllers */,
+				1E29B5E6299014B6004E65A8 /* CilcularTranzition.swift */,
+			);
+			path = Tranzitioning;
+			sourceTree = "<group>";
+		};
+		1E29B5E529901473004E65A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E29B5E029900FAE004E65A8 /* OneRoundButtonViewController.swift */,
+				1E29B5E229900FC4004E65A8 /* TwoRoundButtonViewControllerViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		1EE1E9F12981620400DBEEFC = {
@@ -151,6 +175,7 @@
 				1E29B5D8298FFE66004E65A8 /* PostViewController.swift */,
 				1E29B5DA298FFE8D004E65A8 /* InfoViewController.swift */,
 				1E29B5DE29900514004E65A8 /* MainViewController.swift */,
+				1E29B5E429901454004E65A8 /* Tranzitioning */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,13 +277,16 @@
 				1E29B5DD298FFECE004E65A8 /* CradientButton.swift in Sources */,
 				1EE1EA20298288B900DBEEFC /* MainTabBarController.swift in Sources */,
 				1E29B5DF29900514004E65A8 /* MainViewController.swift in Sources */,
+				1E29B5E7299014B6004E65A8 /* CilcularTranzition.swift in Sources */,
 				1EE1EA17298166AC00DBEEFC /* UIViewController + Extension.swift in Sources */,
 				1EE1EA002981620400DBEEFC /* SceneDelegate.swift in Sources */,
 				1E29B5C5298FA927004E65A8 /* OneCustomView.swift in Sources */,
 				1E29B5C7298FA93C004E65A8 /* TwoCustomView.swift in Sources */,
+				1E29B5E129900FAE004E65A8 /* OneRoundButtonViewController.swift in Sources */,
 				1E29B5D2298FF54F004E65A8 /* FeedViewController.swift in Sources */,
 				1E29B5CE298FF0BA004E65A8 /* Cod.swift in Sources */,
 				1EE1EA1D29827BD500DBEEFC /* SwiftUIView.swift in Sources */,
+				1E29B5E329900FC4004E65A8 /* TwoRoundButtonViewControllerViewController.swift in Sources */,
 				1E29B5D7298FF65F004E65A8 /* PostTitle.swift in Sources */,
 				1E29B5D4298FF61C004E65A8 /* UIColorExtension.swift in Sources */,
 			);

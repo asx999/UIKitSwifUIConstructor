@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
+final class MainTabBarController: UITabBarController {
     //передаваемые ViewController которые станут NavigationController
     private var profileNavigationController = ProfileViewController()
     private var feedNavigationController = FeedViewController()
