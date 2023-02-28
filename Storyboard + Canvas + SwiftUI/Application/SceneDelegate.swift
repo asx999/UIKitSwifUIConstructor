@@ -9,11 +9,37 @@ import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     //__________________________________Коментируемые блоки
+    //__________________________________Закоментировать ниже
+    //UICollectionView работа с коллекциями
+    var window: UIWindow?
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        guard let scene = (scene as? UIWindowScene) else { return }
+        let navController = UINavigationController(rootViewController: MyCollectionController())
+        navController.navigationBar.prefersLargeTitles = true
 
-        var window: UIWindow?
-        func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-            guard let _ = (scene as? UIWindowScene) else { return }
-        }
+        window = UIWindow(windowScene: scene)
+        window?.rootViewController = MyCollectionController()
+        window?.makeKeyAndVisible()
+    }
+    //__________________________________Закоментировать выше
+//__________________________________Закоментировать ниже
+// подключил TableVC как UINavigationController
+//    var window: UIWindow?
+//    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+//        guard let scene = (scene as? UIWindowScene) else { return }
+//        let navController = UINavigationController(rootViewController: TableVC())
+//        navController.navigationBar.prefersLargeTitles = true
+//
+//        window = UIWindow(windowScene: scene)
+//        window?.rootViewController = navController
+//        window?.makeKeyAndVisible()
+//    }
+    //__________________________________Закоментировать выше
+
+//        var window: UIWindow?
+//        func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+//            guard let _ = (scene as? UIWindowScene) else { return }
+//        }
 
     //__________________________________Закоментировать ниже
 
